@@ -333,7 +333,7 @@ $('input[type="checkbox"]').prop('checked', true).val()
 > See http://api.jquery.com/prop/ for more information
 
 #### .data( name, value )
-Method for getting and setting data attributes. Gets or sets the data attribute value for only the first element in the matched set.
+Method for getting and setting data attributes. Gets or sets the data attribute value for all HTML elements in the matched set.
 
 ```js
 $('<div data-apple-color="red"></div>').data()
